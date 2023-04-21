@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Module 3: BookStore</b></h3>
+  <h3><b>Module 3: React Capstone</b></h3>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-Math Magician is project from Microverse module 3, it is a Webapp built using ReactJS.
+React Capstone is project from Microverse module 3, that allows the user to Search and find the number of the Population for every country around the world by utilizing React and Redux..
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML, CSS, NodeJS v18, ReactJS
@@ -83,12 +83,18 @@ HTML, CSS, NodeJS v18, ReactJS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🎥 Video Description <a name="video-description"></a>
+
+- [Video Description](https://www.loom.com/share/a52e6f032fb740528aa73e0a2997599a)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Comming soon...
+- [Live Demo](https://set-up--aesthetic-lollipop-8452ba.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,13 +118,13 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 ```sh
   cd my-folder
-  git https://github.com/ilyassatlassi/Bookstore.git
+  git gh repo clone ilyassatlassi/React-capstone
 ```
 ### Install
 
 Install this project with:
 ```sh
-  cd bookstore
+  cd REACT-CAPSTONE
   npm install
 ```
 
@@ -183,7 +189,7 @@ To check for js errors run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ilyassatlassi/Bookstore/issues).
+Feel free to check the [issues page](https://github.com/ilyassatlassi/React-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
