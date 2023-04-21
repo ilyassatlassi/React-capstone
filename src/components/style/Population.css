@@ -1,24 +1,26 @@
 .container {
-    position: relative;
-    margin-top: 10px;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 30px;
-  }
+  position: relative;
+  margin-top: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
 
-  .country-list {
-    display: grid;
-    /* grid-auto-columns: 1fr; */
-    grid-template-columns: 1fr 1fr;
-    gap: 5px 5px;
-    width: 100%;
-  }
+.country-list {
+  display: grid;
+
+  /* grid-auto-columns: 1fr; */
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 5px;
+  width: 100%;
+}
+
 .country-list a {
-text-decoration: none;
+  text-decoration: none;
 }

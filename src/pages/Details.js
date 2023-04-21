@@ -1,13 +1,10 @@
-import Info from "../components/moreInfo";
-import NavBar from "../components/NavBar";
+import Info from '../components/moreInfo';
 
-export default function Details(){
+export default function Details() {
+  return (
 
-    return(
-        
-        <div>
-            <Info />
-        </div>
-    )
-    
+    <div>
+      <Info />
+    </div>
+  );
 }
