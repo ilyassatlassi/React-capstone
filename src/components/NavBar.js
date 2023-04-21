@@ -26,7 +26,7 @@ function NavBar() {
           </svg>
         </Link>
 
-        <h2> Country Statistics </h2>
+        <h2> Country Population </h2>
       </div>
 
       <div className="tools">

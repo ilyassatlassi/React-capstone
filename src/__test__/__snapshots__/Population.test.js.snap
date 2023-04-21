@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Population component renders correctly 1`] = `
+<div
+  class="country-list"
+>
+  <a
+    href="/details/Country 1"
+  >
+    <div
+      class="country-card"
+    >
+      <img
+        alt="Country 1 flag"
+        class="country-flag"
+        src="https://restcountries.com/data/afg.svg"
+      />
+      <h2>
+        Country 1
+      </h2>
+      <p>
+        Population:
+        1000
+      </p>
+    </div>
+  </a>
+  <a
+    href="/details/Country 2"
+  >
+    <div
+      class="country-card"
+    >
+      <img
+        alt="Country 2 flag"
+        class="country-flag"
+        src="https://restcountries.com/data/ala.svg"
+      />
+      <h2>
+        Country 2
+      </h2>
+      <p>
+        Population:
+        2000
+      </p>
+    </div>
+  </a>
+</div>
+`;

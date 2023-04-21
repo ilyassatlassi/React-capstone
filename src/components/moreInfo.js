@@ -13,31 +13,34 @@ export default function Info() {
   const character = filteredData.find((item) => item.name === countryName);
   return (
     <div className="info">
-      <div className="selected-country">
-        <img
-          className="country-flag-info"
-          src={character.flag}
-          alt={`${character.name} flag`}
-        //   onError={handleFlagError}
-        />
-        <h2>
-          Name:
-          {character.name}
-        </h2>
-        <p>
-          Capital:
-          {character.capital}
-        </p>
-        <p>
-          Region:
-          {character.region}
-        </p>
-        <p>
-          Subregion:
-          {character.subregion}
-        </p>
-
-      </div>
+      {character ? (
+        <div className="selected-country">
+          <img
+            className="country-flag-info"
+            src={character.flag}
+            alt={`${character.name} flag`}
+          />
+          <h2>
+            Name:
+            {character.name}
+          </h2>
+          <p>
+            Capital:
+            {character.capital}
+          </p>
+          <p>
+            Region:
+            {character.region}
+          </p>
+          <p>
+            Subregion:
+            {character.subregion}
+          </p>
+        </div>
+      ) : (
+        <div>No data available for {countryName}</div>
+      )}
     </div>
   );
+  
 }

@@ -2,10 +2,7 @@ import { Link } from 'react-router-dom';
 import './style/CountryCard.css';
 
 export default function CountryCard({ country }) {
-  // const handleFlagError = (event) => {
-  //   event.target.onError = null;
-  //   event.target.src = 'https://www.crwflags.com/fotw/images/u/unknown.gif';
-  // };
+
 
   return (
     <Link to={`/details/${country.name}`}>

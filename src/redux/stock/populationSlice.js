@@ -12,8 +12,6 @@ export const fetchPopulationData = createAsyncThunk(
       capital: country.capital,
       region: country.region,
       subregion: country.subregion,
-      // currencies:country.currencies.name,
-      // symbol:country.currencies.symbol,
 
     }));
   },
