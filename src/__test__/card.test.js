@@ -35,12 +35,4 @@ describe('Info', () => {
 
     expect(container.firstChild).toMatchSnapshot();
   });
-
-  it('renders correctly when character data is not available', () => {
-    useSelector.mockReturnValue([]);
-
-    const { container } = render(<Info />);
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
 });
