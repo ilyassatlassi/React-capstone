@@ -172,6 +172,8 @@ To check for js errors run:
 - Twitter: [@ilyass_atlassi](https://twitter.com/ilyass_atlassi)
 - LinkedIn: [Ilyass Atlassi](https://www.linkedin.com/in/ilyassatlassi/)
 
+Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
 
 <!-- FUTURE FEATURES -->
 
