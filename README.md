@@ -31,7 +31,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magician <a name="about-project"></a>
+# 📖 REACT CAPSTONE <a name="about-project"></a>
 
 React Capstone is project from Microverse module 3, that allows the user to Search and find the number of the Population for every country around the world by utilizing React and Redux..
 
@@ -85,7 +85,7 @@ HTML, CSS, NodeJS v18, ReactJS
 
 ## 🎥 Video Description <a name="video-description"></a>
 
-- [Video Description](https://www.loom.com/share/a52e6f032fb740528aa73e0a2997599a)
+- [Video Description](https://www.loom.com/share/d992e81f5a854d018081de21522a30c3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
