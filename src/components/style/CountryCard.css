@@ -1,0 +1,27 @@
+.country-card {
+    background-color: #fc5193;
+  color: white;
+  padding: 10%;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  }
+
+  .country-card:hover {
+    transform: scale(1.03);
+  box-shadow:
+    0 1px 2px 0 rgba(35, 219, 210, 0.7),
+    1px 2px 4px 0 rgba(35, 219, 210, 0.7),
+    2px 4px 8px 0 rgba(35, 219, 210, 0.7),
+    2px 4px 16px 0 rgba(35, 219, 210, 0.7);
+  filter: none;
+  }
+  
+  .country-flag {
+    height: 150px;
+    width: 100px;
+  }

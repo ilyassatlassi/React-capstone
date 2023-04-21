@@ -1,0 +1,18 @@
+
+input[type="search"] {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  
+  input[type="search"]::placeholder {
+    color: #aaa;
+  }
+
+  input[type="search"]:focus {
+    border-color: #666;
+    box-shadow: 0 0 5px #666;
+  }

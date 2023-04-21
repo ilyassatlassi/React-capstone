@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import stockReducer from './stock/stockSlice'
+import populationReducer from './stock/populationSlice'
 
 const store = configureStore({
     reducer: {
-      stock: stockReducer,
+        population: populationReducer,
     },
   });
   
