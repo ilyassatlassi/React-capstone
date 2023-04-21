@@ -38,9 +38,11 @@ export default function Info() {
           </p>
         </div>
       ) : (
-        <div>No data available for {countryName}</div>
+        <div>
+          No data available for
+          {countryName}
+        </div>
       )}
     </div>
   );
-  
 }

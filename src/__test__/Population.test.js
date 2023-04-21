@@ -41,7 +41,7 @@ describe('Population component', () => {
         <BrowserRouter>
           <Population searchTerm="" />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
 
     expect(container.firstChild).toMatchSnapshot();

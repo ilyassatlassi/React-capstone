@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import './style/CountryCard.css';
 
 export default function CountryCard({ country }) {
-
-
   return (
     <Link to={`/details/${country.name}`}>
       <div className="country-card">

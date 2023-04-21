@@ -11,19 +11,18 @@ import CountryCard from './CountryCard';
 export default function Population({ searchTerm }) {
   const dispatch = useDispatch();
   const filteredData = useSelector(selectFilteredData);
-  const status = useSelector((state) => state.population.status)
+  const status = useSelector((state) => state.population.status);
 
   useEffect(() => {
-    if (status === 'idle'){
+    if (status === 'idle') {
       dispatch(fetchPopulationData());
     }
-    
+    // eslint-disable-next-line
   }, [dispatch]);
-  
 
   return (
     <div className="country-list">
-      {filteredData 
+      {filteredData
         .filter((country) => country.name.toLowerCase().includes(searchTerm.toLowerCase()))
         .slice(0, 100)
         .map((country) => (

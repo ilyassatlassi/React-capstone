@@ -3,14 +3,13 @@ import { render } from '@testing-library/react';
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Info from '../components/moreInfo';
-import { selectFilteredData} from '../redux/stock/populationSlice';
 
 jest.mock('react-router-dom', () => ({
-  useParams: jest.fn()
+  useParams: jest.fn(),
 }));
 
 jest.mock('react-redux', () => ({
-  useSelector: jest.fn()
+  useSelector: jest.fn(),
 }));
 
 describe('Info', () => {
@@ -22,8 +21,8 @@ describe('Info', () => {
         flag: 'https://restcountries.com/data/usa.svg',
         capital: 'Washington, D.C.',
         region: 'Americas',
-        subregion: 'Northern America'
-      }
+        subregion: 'Northern America',
+      },
     ]);
   });
 
