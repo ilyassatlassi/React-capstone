@@ -85,7 +85,7 @@ HTML, CSS, NodeJS v18, ReactJS
 
 ## 🎥 Video Description <a name="video-description"></a>
 
-- [Video Description](https://www.loom.com/share/a52e6f032fb740528aa73e0a2997599a)
+- [Video Description](https://www.loom.com/share/d992e81f5a854d018081de21522a30c3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
