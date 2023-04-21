@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info renders correctly when character data is available 1`] = `
+<div
+  class="info"
+>
+  <div
+    class="selected-country"
+  >
+    <img
+      alt="United States flag"
+      class="country-flag-info"
+      src="https://restcountries.com/data/usa.svg"
+    />
+    <h2>
+      Name:
+      United States
+    </h2>
+    <p>
+      Capital:
+      Washington, D.C.
+    </p>
+    <p>
+      Region:
+      Americas
+    </p>
+    <p>
+      Subregion:
+      Northern America
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Info renders correctly when character data is not available 1`] = `
+<div
+  class="info"
+>
+  <div>
+    No data available for 
+    United States
+  </div>
+</div>
+`;
